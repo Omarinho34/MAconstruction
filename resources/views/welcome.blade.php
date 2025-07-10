@@ -457,7 +457,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-bold mb-1">Adresse</h4>
-                                    <p>116 Rue des yuccas<br>34070 Montpellier</p>
+                                    <p>{{ env('ADDRESS') }}<br>{{ env('ZIP_CODE') }}</p>
                                 </div>
                             </div>
                             
@@ -467,8 +467,8 @@
                                 </div>
                                 <div>
                                     <h4 class="font-bold mb-1">Téléphone</h4>
-                                    <p>06 32 15 64 52</p>
-                                    <p class="text-sm text-gray-400">Du lundi au Dimanche, 8h-21h</p>
+                                    <p>{{ env('PHONE') }} </p>
+                                    <p class="text-sm text-gray-400">{{ env('PHONE_SCHEDULES') }}</p>
                                 </div>
                             </div>
                             
@@ -488,7 +488,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-bold mb-1">Horaires</h4>
-                                    <p>Lundi - Samedi: 8h - 18h<br>
+                                    <p>{{ env('HORS') }}<br>
                                 </div>
                             </div>
                         </div>
