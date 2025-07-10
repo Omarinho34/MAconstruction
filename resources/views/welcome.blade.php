@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>M.A Construction - Artisan Maçon</title>
+    <title>{{env('WEBSITE_NAME')}} - Artisan Maçon</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -273,7 +273,7 @@
                 <div class="lg:w-1/2">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">À propos de moi</h2>
                     <div class="w-20 h-1 bg-yellow-500 mb-6"></div>
-                    <p class="text-gray-600 mb-4">Je m'appelle Mohammed Amri et je suis artisan maçon depuis plus de 25 ans. Passionné par mon métier, j'ai créé mon entreprise individuelle pour offrir un service personnalisé et de qualité à mes clients.</p>
+                    <p class="text-gray-600 mb-4">Je m'appelle John Doe et je suis artisan maçon depuis plus de 25 ans. Passionné par mon métier, j'ai créé mon entreprise individuelle pour offrir un service personnalisé et de qualité à mes clients.</p>
                     <p class="text-gray-600 mb-6">Formé aux techniques traditionnelles tout en suivant les évolutions du secteur, je m'engage à réaliser vos projets avec professionnalisme, dans le respect des normes et des délais.</p>
                     
                     <div class="mb-6">
@@ -319,7 +319,7 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-600 italic mb-4">"Mohammed a réalisé l'extension de notre maison avec un professionnalisme remarquable. Les délais ont été respectés et le travail est d'une grande qualité. Je recommande sans hésitation !"</p>
+                    <p class="text-gray-600 italic mb-4">"John a réalisé l'extension de notre maison avec un professionnalisme remarquable. Les délais ont été respectés et le travail est d'une grande qualité. Je recommande sans hésitation !"</p>
                     <div class="flex items-center">
                         <div class="bg-gray-200 w-10 h-10 rounded-full flex items-center justify-center mr-3">
                             <i class="fas fa-user text-gray-500"></i>
@@ -500,7 +500,7 @@
 
     <!-- Map Section -->
     <div class="h-96 w-full">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.2618440357096!2d3.837497215482237!3d43.59273286222095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ae44463339f3%3A0x85a90717d4b5046d!2s116%20Rue%20des%20Yuccas%2C%2034070%20Montpellier!5e0!3m2!1sfr!2sfr!4v1720614196232!5m2!1sfr!2sfr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0287696661227!2d139.7432389152582!3d35.65858018019973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf028dcf6ff%3A0x1f06c2386d194e72!2sTokyo%20Tower!5e0!3m2!1sen!2sjp!4v1628577982756!5m2!1sen!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <!-- Footer -->
@@ -557,7 +557,7 @@
             </div>
             
             <div class="border-t border-gray-800 mt-12 pt-8 text-center">
-                <p>&copy; 2025 M.A Construction - Tous droits réservés. SIRET: 123 456 789 00010</p>
+                <p>&copy; 2025 {{env('WEBSITE_NAME')}} - Tous droits réservés. SIRET: 123 456 789 00010</p>
             </div>
         </div>
     </footer>

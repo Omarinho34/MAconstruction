@@ -1,4 +1,4 @@
-# M.A Construction - Site Web Artisan Maçon
+# Site Web Artisan Maçon
 
 ![M.A Construction](https://img.shields.io/badge/Laravel-11-red.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)
