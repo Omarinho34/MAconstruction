@@ -76,7 +76,7 @@
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
                 <i class="fas fa-hammer text-yellow-500 text-3xl mr-2"></i>
-                <span class="text-xl font-bold text-gray-800"><span class="text-yellow-500">M.A</span> Construction</span>
+                <span class="text-xl font-bold text-gray-800">{{env('WEBSITE_NAME')}}</span>
             </div>
             
             <nav class="hidden md:flex space-x-8">
@@ -510,7 +510,7 @@
                 <div>
                     <div class="flex items-center mb-4">
                         <i class="fas fa-hammer text-yellow-500 text-2xl mr-2"></i>
-                        <span class="text-xl font-bold text-white"><span class="text-yellow-500">M.A</span> Construction</span>
+                        <span class="text-xl font-bold text-white">{{env('WEBSITE_NAME')}}</span>
                     </div>
                     <p class="mb-4">Artisan maçon qualifié pour tous vos projets de construction et rénovation dans la région montpellieraine.</p>
                 </div>
