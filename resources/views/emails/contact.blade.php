@@ -41,7 +41,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>🔨 M.A Construction</h1>
+        <h1>🔨 {{ env('MAIL_FROM_NAME')}}</h1>
         <p>Nouveau message de contact</p>
     </div>
     
@@ -92,7 +92,7 @@
     </div>
     
     <div class="footer">
-        <p>Ce message a été envoyé depuis le formulaire de contact de votre site web M.A Construction.</p>
+        <p>Ce message a été envoyé depuis le formulaire de contact de votre site web {{env('WEBSITE_NAME')}}.</p>
     </div>
 </body>
 </html>
